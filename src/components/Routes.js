@@ -15,10 +15,10 @@ export const RoutesComponent = () => {
   return (
     <>
          <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/about' element={ <About/>}/>
-            <Route path='/contact' element={<Contact />}/>    
-            <Route path='/contact/form' component={<ContactForm />}/>
+            <Route path='/portfolio' element={<Home/>}/>
+            <Route path='/portfolio/about' element={ <About/>}/>
+            <Route path='/portfolio/contact' element={<Contact />}/>    
+            <Route path='/portfolio/contact/form' component={<ContactForm />}/>
                            
           
 

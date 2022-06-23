@@ -17,7 +17,7 @@ export const NavBar = () => {
            <div className='container collapse navbar-collapse d-md-flex justify-content-md-end ' id="navbarSupportedContent">
            <ul className='navbar-nav  mb-2  text-center' >
            <li className='nav-item'>
-                <NavLink to='/' className={ 'nav-link text-light'}
+                <NavLink to='/portfolio' className={ 'nav-link text-light'}
                       > 
                       {({ isActive }) => (
                         <span
@@ -33,7 +33,7 @@ export const NavBar = () => {
               </li>
 
               <li className='nav-item'>
-                <NavLink to='/about' className={ 'nav-link text-light'}
+                <NavLink to='/portfolio/about' className={ 'nav-link text-light'}
                       > 
                       {({ isActive }) => (
                         <span
@@ -49,7 +49,7 @@ export const NavBar = () => {
               </li>
 
               <li className='nav-item'>
-                <NavLink to='/contact' className={ 'nav-link text-light'}
+                <NavLink to='/portfolio/contact' className={ 'nav-link text-light'}
                       > 
                       {({ isActive }) => (
                         <span

@@ -1,10 +1,11 @@
 import React from 'react'
+import { unstable_HistoryRouter } from 'react-router-dom'
 import photo from '../assets/img/coding.jpg'
 import { Code, Download, User } from './Logos'
 
 export const About = () => {
 
-
+ 
 
   return (
     <div className=" container h-75 text-light ">
