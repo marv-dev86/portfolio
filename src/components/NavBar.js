@@ -17,7 +17,7 @@ export const NavBar = () => {
            <div className='container collapse navbar-collapse d-md-flex justify-content-md-end ' id="navbarSupportedContent">
            <ul className='navbar-nav  mb-2  text-center' >
            <li className='nav-item'>
-                <NavLink to='/portfolio' className={ 'nav-link text-light'}
+                <NavLink to='/portfolio/' className={ 'nav-link text-light'}
                       > 
                       {({ isActive }) => (
                         <span
